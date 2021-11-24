@@ -1,11 +1,11 @@
-var urlGetFacturas = 'http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=GetFacturasTodas';
-var urlGetFacturasFinalizadas = "http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=GetFacturas";
-var urlGetFacturasAnuladas = "http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=GetFacturasAnuladas";
-var urlGetFactura = "http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=GetUno";
-var urlPostFactura = 'http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=InsertFactura';
-var urlPutFacturaDetalle = 'http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=UpdateDetalleFactura';
-var urlPutFacturaEstado = 'http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=UpdateEstadoFactura';
-var urlDeleteFactura = 'http://localhost:80/G9_19/Facturas/controller/Facturas.php?op=DeleteFactura';
+var urlGetFacturas = 'http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=GetFacturasTodas';
+var urlGetFacturasFinalizadas = "http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=GetFacturas";
+var urlGetFacturasAnuladas = "http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=GetFacturasAnuladas";
+var urlGetFactura = "http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=GetUno";
+var urlPostFactura = 'http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=InsertFactura';
+var urlPutFacturaDetalle = 'http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=UpdateDetalleFactura';
+var urlPutFacturaEstado = 'http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=UpdateEstadoFactura';
+var urlDeleteFactura = 'http://34.68.196.220:90/G9_19/Facturas/controller/Facturas.php?op=DeleteFactura';
 
 $(document).ready(function(){
     CargarFacturas();
